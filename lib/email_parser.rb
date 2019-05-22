@@ -10,5 +10,4 @@ class EmailParser
     @email = email
     @@email_list << email
   end
-
 end
