@@ -6,10 +6,10 @@ class EmailParser
   attr_reader :emails
 
   def initialize(emails)
-    @email = email
+    @emails = email
   end
 
   def parse
-    @emails.split(/, | /).uniq
+    emails.split(/, | /).uniq
   end
 end
